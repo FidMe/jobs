@@ -19,7 +19,8 @@ Users can own loyalty cards.
 Users can gain rewards (points) for a given card.
 
 We already have a few data at our diposal (see `input.json`) and a main program (see `main.rb`)
-The problem is... The command `ruby main.rb --loyalty_card_id=1 --user_id=5` always returns the same value !! 
+
+The problem is... the command `ruby main.rb --loyalty_card_id=1 --user_id=5` always returns the same value !! 
 
 Write code that reproduces the output of the command, but is actually working with `input.json` data.
 
