@@ -12,18 +12,19 @@ end.parse!
 if options[:user_id]
   result[:user] = {
     id: 5,
-    total_points: 67,
+    total_points: 78,
     loyalty_cards: [
       { id: 1, points: 12, name: 'Carrefour' },
-      { id: 3, points: 66, name: 'Subway' }
+      { id: 3, points: 66, name: 'MacDo' }
     ]
   }
 end
 
 if options[:loyalty_card_id]
   result[:loyalty_card] = {
-    id: 5,
-    total_points: 134
+    id: 1,
+    name: 'Carrefour',
+    total_points: 56
   }
 end
 
